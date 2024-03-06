@@ -668,8 +668,10 @@ Jobs
     column-gap: 4rem;
   }
   .btn-container {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: auto;
   }
   .job-btn {
     margin-bottom: 1rem;
