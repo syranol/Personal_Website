@@ -5,7 +5,7 @@ export default [
   {
     id: 1,
     position: "Software Engineer",
-    company: "PlayStation",
+    company: "PlayStation (Sony)",
     date: "Nov. 2021 - Mar. 2024",
     location: "San Francisco, CA",
     desc: 
@@ -22,7 +22,7 @@ export default [
   {
     id: 2,
     position: "Software Development Engineer in Test",
-    company: "PlayStation",
+    company: "PlayStation (Sony)",
     date: "Mar. 2021 - Nov. 2021",
     location: "San Francisco, CA",
     desc:

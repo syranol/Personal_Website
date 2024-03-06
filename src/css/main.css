@@ -667,9 +667,7 @@ Jobs
     column-gap: 4rem;
   }
   .btn-container {
-    max-width: 90vw; /* Adjust maximum width as needed */
-    margin-left: auto; /* Center the container */
-    margin-right: auto; /* Center the container */
+    max-width: 90vw;
   }
   .job-btn {
     margin-bottom: 1rem;
@@ -682,6 +680,27 @@ Jobs
   }
 }
 
+@media screen and (min-width: 200px) {
+  .jobs-center {
+    width: 90vw;
+    display: row;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    max-width: 90vw;
+  }
+  .job-btn {
+    margin-bottom: 1rem;
+  }
+  .active-btn {
+    box-shadow: -2px 0 var(--clr-primary-5);
+  }
+  .job-btn:hover {
+    box-shadow: -2px 0 var(--clr-primary-5);
+  }
+}
 /*
 =============== 
 Projects
@@ -960,7 +979,8 @@ About Page
   border-radius: 50%;
   position: absolute;
 
-  animation: slideDown 3s ease 0s forwards;
+  animation: ease-out 3s slideDown;
+  animation-fill-mode: forwards;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
