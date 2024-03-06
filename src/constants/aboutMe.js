@@ -2,7 +2,7 @@ import React from "react"
 
 export const aboutMe = 
     `Hello! I'm Sean, a software engineer based in San Francisco, CA, with a passion for creating and building
-    innovative projects.I embrace a 'fluid' philosophy towards life, always staying open-minded and eager to learn.
+    innovative projects. I embrace a 'fluid' philosophy towards life, always staying open-minded and eager to learn.
     Whether it's tackling new challenges or exploring unfamiliar territories, I thrive on pushing my boundaries
     and seeking out meaningful experiences.
     In my downtime, you can find me taking leisurely walks with my dog, Archie, or sampling diverse cuisines at local

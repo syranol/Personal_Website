@@ -462,8 +462,7 @@ Hero
   top: 50%;
   left: 50%;
   border-radius: 50%;
-  animation: ease 3s slideDown;
-  animation-fill-mode: forwards;
+  animation: slideDown 3s ease 0s forwards;
 }
 
 @keyframes slideDown {
@@ -668,10 +667,9 @@ Jobs
     column-gap: 4rem;
   }
   .btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: auto;
+    max-width: 90vw; /* Adjust maximum width as needed */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
   }
   .job-btn {
     margin-bottom: 1rem;
@@ -962,8 +960,7 @@ About Page
   border-radius: 50%;
   position: absolute;
 
-  animation: ease-out 3s slideDown;
-  animation-fill-mode: forwards;
+  animation: slideDown 3s ease 0s forwards;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
