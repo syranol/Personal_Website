@@ -5,6 +5,7 @@ export default [
   {
     id: 1,
     position: "Software Engineer",
+    company_short: "PlayStation",
     company: "PlayStation (Sony)",
     date: "Nov. 2021 - Mar. 2024",
     location: "San Francisco, CA",
@@ -22,6 +23,7 @@ export default [
   {
     id: 2,
     position: "Software Development Engineer in Test",
+    company_short: "PlayStation",
     company: "PlayStation (Sony)",
     date: "Mar. 2021 - Nov. 2021",
     location: "San Francisco, CA",
@@ -37,8 +39,9 @@ export default [
   {
     id: 3,
     position: "Release Engineer",
-    company: "ESRI",
-    date: "Nov. 2021 - Mar. 2024",
+    company_short: "ESRI",
+    company: "Environmental Systems Research Institute",
+    date: "Jun. 2020 - Mar. 2021",
     location: "Redlands, CA",
     desc:
     [
@@ -52,8 +55,9 @@ export default [
   {
     id: 4,
     position: "Software Engineer",
-    company: "FIC",
-    date: "Nov. 2021 - Mar. 2024",
+    company_short: "FIC",
+    company: "First International Computing, INC",
+    date: "Jun. 2019 - Sep. 2019",
     location: "Fremont. CA",
     desc:
     [

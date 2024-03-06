@@ -11,7 +11,7 @@ const Navbar = ({ toggleSidebar }) => {
         <div class="nav-header">
           <Link to="/">
             <h3 class="navbar-title">
-              <span> Sean</span> 
+              <span class="navbar-firstname"> Sean</span> 
               <span class="navbar-lastname"> Lo </span>
             </h3>
           </Link>

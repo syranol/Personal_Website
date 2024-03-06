@@ -18,7 +18,7 @@ const Jobs = () => {
               onClick={() => setValue(index)}
               className={`job-btn ${index === value && "active-btn"}`}
             >
-              {item.company}
+              {item.company_short}
             </button>
           ))}
         </div>

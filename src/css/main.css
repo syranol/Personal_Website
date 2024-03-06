@@ -219,6 +219,9 @@ Navbar
   z-index: 200;
   background: var(--clr-white);
 }
+.navbar-firstname {
+  color: black;
+}
 .navbar-lastname {
   color: teal;
 }
