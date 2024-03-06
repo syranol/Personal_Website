@@ -12,7 +12,7 @@ export default [
     [
         "Developed and maintained a Python Appium Client/Server pytest testing framework for PS4, PS5, Windows, and Web that was utilized by 1,000+ developers and testers",
         "Implemented CI/CD release pipelines utilizing Jenkins, Bash, and Groovy, enabling automated semantic releases for 30+ teams delivering PlayStation React Native-based applications",
-        "Maintained a crucial PlayStation Network tool in JavaScript with Node.js and MongoDB, processing 100,000+ of calls weekly across API, Web, and CLI for development and testing",
+        "Maintained a crucial PlayStation Network tool in JavaScript with Node.js and MongoDB, processing 100,000+ calls weekly across API, Web, and CLI for development and testing",
         "Proactively led refactoring effort of multiple Python-based internal tools leveraged by 20+ teams daily for development, testing, and nightly regression jobs",
         "Crafted a Python-based Telemetry app with MongoDB and Grafana, enabling shareholder insights and improving KPI monitoring and decision-making",
         "Developed and led training workshops and tutorials to 200+ QA and developers each session on the testing framework and numerous other tools my team created",
@@ -28,7 +28,7 @@ export default [
     desc:
     [
         "Assisted in the successful launch of PlayStation Direct’s expansion to Europe for 10+ countries reaching 10,000,000+ monthly visitors",
-        "Developed Selenium automation strategy for PlayStation Direct’s checkout system and drove implementation of automated end-to-end test suite ensuring 100% test coverage with a focus on stability and maintainability",
+        "Developed Selenium automation strategy for PlayStation Direct’s checkout system and drove implementation of automated end-to-end test suite, ensuring 100% test coverage with a focus on stability and maintainability",
         "Designed, developed, and enhanced internal JavaScript Selenium WebDriver libraries for interacting with Web interfaces on the PlayStation websites, ensuring robust and efficient testing processes",
         "Implemented and integrated CI/CD strategies using Groovy and Jenkins to improve testing and development efficiency and effectiveness",
         "Worked in collaboration with the QA Lead, developers, project manager, and various stakeholder teams to ensure the continuous delivery of product releases"
