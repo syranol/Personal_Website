@@ -22,11 +22,11 @@ const data = [
     icon: <FaRegIdBadge className="social-icon"></FaRegIdBadge>,
     url: "https://syranol.github.io/markdown-cv/",
   },
-  {
-    id: 4,
-    icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
-    url: "https://www.instagram.com/syranol",
-  },
+  // {
+  //   id: 4,
+  //   icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
+  //   url: "https://www.instagram.com/syranol",
+  // },
 ]
 const links = data.map(link => {
   return (
