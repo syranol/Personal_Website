@@ -5,6 +5,20 @@ export default [
   {
     id: 1,
     position: "Software Engineer",
+    company_short: "Apple",
+    company: "Apple",
+    date: "May. 2024 - Current",
+    location: "Cupertino, CA",
+    desc: 
+    [
+      "Architected and led development of the team’s core data collection framework, enabling automated data capture for anti-spoofing and Face ID",
+      "Defined and drove the technical strategy for data collection pipelines, collaborating with cross-functional teams to implement feature requests",
+      "Spearheaded framework adoption and scaling onboarding efforts across the organization",
+      "Provided technical mentorship to team members, guiding them through technical challenges and career growth",
+    ]
+  },  {
+    id: 2,
+    position: "Software Engineer",
     company_short: "PlayStation",
     company: "PlayStation (Sony)",
     date: "Nov. 2021 - Mar. 2024",
@@ -21,7 +35,7 @@ export default [
     ]
   },
   {
-    id: 2,
+    id: 3,
     position: "Software Development Engineer in Test",
     company_short: "PlayStation",
     company: "PlayStation (Sony)",
@@ -37,7 +51,7 @@ export default [
     ]
   },
   {
-    id: 3,
+    id: 4,
     position: "Release Engineer",
     company_short: "ESRI",
     company: "Environmental Systems Research Institute",
@@ -53,7 +67,7 @@ export default [
     ]
   },
   {
-    id: 4,
+    id: 5,
     position: "Software Engineer",
     company_short: "FIC",
     company: "First International Computing, INC",
