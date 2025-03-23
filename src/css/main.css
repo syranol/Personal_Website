@@ -607,9 +607,12 @@ Jobs
 }
 .btn-container {
   display: flex;
+  align-items: flex-start;
   flex-direction: row;
-  justify-content: center;
-  margin-bottom: 4rem;
+
+  width: 150px;
+  flex-shrink: 0;
+  text-align: right;
 }
 .job-btn {
   background: transparent;
@@ -669,41 +672,75 @@ Jobs
     grid-template-columns: 200px 1fr;
     column-gap: 4rem;
   }
+
   .btn-container {
-    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
+
   .job-btn {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    letter-spacing: var(--spacing);
     margin-bottom: 1rem;
+    transition: var(--transition);
+    cursor: pointer;
   }
-  .active-btn {
-    box-shadow: -2px 0 var(--clr-primary-5);
-  }
-  .job-btn:hover {
-    box-shadow: -2px 0 var(--clr-primary-5);
+
+  .job-info h3 {
+    text-align: left;
   }
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 991px) {
   .jobs-center {
-    width: 90vw;
-    display: row;
-    grid-template-columns: 200px 1fr;
-    column-gap: 4rem;
-  }
-  .btn-container {
+    display: flex;
     flex-direction: column;
-    max-width: 90vw;
+    align-items: stretch;
+    width: 90vw;
+    margin: 0 auto;
   }
+
+  .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
   .job-btn {
-    margin-bottom: 1rem;
+    flex: 1 1 auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    margin: 0;
   }
+
+  .job-btn:hover,
   .active-btn {
-    box-shadow: -2px 0 var(--clr-primary-5);
+    border-bottom: 2px solid var(--clr-primary-5);
+    color: var(--clr-primary-5);
   }
-  .job-btn:hover {
-    box-shadow: -2px 0 var(--clr-primary-5);
+
+  .job-info {
+    padding: 0 1rem;
+  }
+
+  .job-info h3 {
+    text-align: center;
   }
 }
+
+
+
+
 /*
 =============== 
 Projects
